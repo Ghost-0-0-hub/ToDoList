@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./blue.jpg);
+    background-size: 100%;
+}
+.container{
+    width: 25%;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.034);
+    backdrop-filter: blur(10px);
+    margin-left: 37%;
+    margin-top: 5%;
+    border-radius: 30px;
+    transition: 0.25s;
+}
+.title_box{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(30deg, #2E3192 , #1BFFFF);
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.maintitle{
+    color: rgba(245, 245, 245, 0.767);
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+.firstTask{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 8%;
+    outline: none;
+    display: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.secondTask{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 8%;
+    outline: none;
+    display: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+.thirdTask{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 8%;
+    outline: none;
+    display: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.fourthTask{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 8%;
+    outline: none;
+    display: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.fifthTask{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 8%;
+    outline: none;
+    display: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.addvalue{
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 3%;
+    border-radius: 20px;
+    background-color: #1babff94;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    transition: 0.25s;
+    border: none;
+}
+.addvalue:hover{
+    background-color: white;
+    color: #1babff94;
+}
+.instructionBox{
+    width: 470px;
+    height: 160px;
+    background-image: linear-gradient(30deg, #2E3192 , #1BFFFF);
+    color: white;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    line-height: 40px;
+    padding-left: 20px;
+    border-radius: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 12px;
+    display: none;
+    border-top-left-radius: 0;
+}
+.close{
+    margin-left: 100%;
+    border: 1px solid white;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.close:hover{
+    color: #1babff;
+    border: 1px solid #1babff;
+}
+.pictureSelect{
+    margin-left: 91.8%;
+}
+.pictureBox{
+    width: 400px;
+    height: 120px;
+    background-image: linear-gradient(30deg, #2E3192 , #1BFFFF);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 78%;
+    margin-top:-3.7%;
+    display: none;
+}
+.red{
+    margin: 15.3px;
+    margin-top: 8%;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    transition: 0.25s
+}
+.red:hover{
+    border: 1px solid #1babff;
+    color: #1babff;
+}
+.closeTwo{
+    color: white;
+    border: 1px solid white;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -55px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.closeTwo:hover{
+    color: #1babff;
+    border: 1px solid #1babff;
+}
+#firstBackground{
+    background-color: red;
+    border: 1px solid rgb(124, 4, 4);
+    color: white;
+}
+#secondBackground{
+    background-color: green;
+    border: 1px solid rgb(1, 68, 1);
+    color: white;
+}
+#thirdBackground{
+    background-color: #1babff;
+    border: 1px solid #033c5d;
+    color: white;
+}
